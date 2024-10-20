@@ -48,9 +48,9 @@ const WelcomePage = ({ onStartGame }) => {
             <h2>Select Game Mode</h2>
             <div style={styles.buttonContainer}>
                 <button style={styles.button} onClick={onStartGame}>Two Players</button>
-                <button style={styles.buttonDisabled} disabled>Multiplayer 1 (Coming Soon)</button>
-                <button style={styles.buttonDisabled} disabled>Multiplayer 2 (Coming Soon)</button>
-                <button style={styles.buttonDisabled} disabled>Multiplayer 3 (Coming Soon)</button>
+                <button style={styles.buttonDisabled} disabled>Custom Game (Coming Soon)</button>
+                <button style={styles.buttonDisabled} disabled>Online Game(Coming Soon)</button>
+                <button style={styles.buttonDisabled} disabled>Training Game (Coming Soon)</button>
             </div>
         </div>
     );
